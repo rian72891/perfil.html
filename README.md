@@ -5,42 +5,42 @@
   <title>Meu Perfil</title>
 
   <style>
-    
+    /* Seletor por tag */
     body {
-      
+      /* Alterado para um azul claro (Atividade 1) */
       background-color: #e0f7fa; 
       font-family: Arial, sans-serif;
     }
 
-    /
+    /* Seletor por ID */
     #titulo {
       color: darkblue;
       text-align: center;
     }
 
-    
+    /* Seletor por classe */
     .destaque {
       color: #e67e22;
       font-weight: bold;
     }
 
-    
+    /* Seletor agrupado */
     h2, p {
       margin-left: 20px;
     }
 
-    
+    /* Seletor descendente */
     div ul li {
       color: #555;
     }
 
-    
+    /* Novo seletor de CSS para :hover (Atividade 5) */
     div ul li:hover {
-      color: blue; /
-      cursor: pointer; 
+      color: blue; /* Mudar a cor do texto para azul ao passar o mouse */
+      cursor: pointer; /* Adiciona um cursor de ponteiro para indicar interatividade */
     }
 
-    
+    /* Estilo para o Desafio extra (Atividade 6) */
     #rodape {
       margin-top: 30px;
       padding: 10px;
@@ -66,6 +66,7 @@
       <li>Programar</li>
       <li>Assistir filmes</li>
       <li>Jogar futebol</li>
+      <li>Treina calistenia</li>      
     </ul>
   </div>
 
@@ -79,5 +80,3 @@
   </div>
 </body>
 </html>
-loja growth.html
-Displaying loja growth.html.
